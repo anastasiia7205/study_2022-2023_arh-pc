@@ -1,7 +1,7 @@
 ---
 ## Front matter
-title: "РОССИЙСКИЙ УНИВЕРСИТЕТ ДРУЖБЫ НАРОДОВ"
-subtitle: "Факультет физико-математических и естественных наук"
+title: "Отчет по лабораторной работе №4"
+subtitle: "Дисциплина: архитектура компьютера"
 author: "Астраханцева Анастасия Александровна"
 
 ## Generic otions
@@ -16,7 +16,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -89,7 +88,7 @@ header-includes:
 
 ![Конец установки TexLive](image/texlive конец установки.png){ #fig:003 width=70% }
 
-Далее необходимо установить Pandoc и pandoc-crossref. Скачиваю архив pandoc.2.19, pandoc-crossref.v.0.3.13.0 (на самом деле нужно смотреть на соотвестствие версий pandoс и pandoc-crossref. Я по ошибке сначала загрузила версию pandoc.2.19, но попотм установила 2.18) (рис. [-@fig:004])
+Далее необходимо установить Pandoc и pandoc-crossref. Скачиваю архив pandoc.2.19, pandoc-crossref.v.0.3.13.0 (на самом деле нужно смотреть на соотвестствие версий pandoс и pandoc-crossref. Я по ошибке сначала загрузила версию pandoc.2.19, но попотм установила 2.18) (рис. [-@fig:004] - [-@fig:006])
 
 ![Установка pandoc.2.19(по ошибке :) ](image/pandoc download.png){ #fig:004 width=70% }
 
@@ -101,7 +100,7 @@ header-includes:
 
 ![Распаковка архивов pandoc.2.19, pandoc-crossref.v.0.3.13.0 ](image/pandoc распакавка.png){ #fig:007 width=70% }
 
-Выполняю копирование файлов pandoc и pandoc-crossref в каталог /usr/local/bin/ (рис. [-@fig:008]): 
+Выполняю копирование файлов pandoc и pandoc-crossref в каталог /usr/local/bin/ (рис. [-@fig:008] - [-@fig:009]): 
 
 ![Копирование pandoc.2.19, pandoc-crossref.v.0.3.13.0 ](image/перемещение pandoc.png){ #fig:008 width=70% }
 
@@ -122,12 +121,18 @@ header-includes:
 
 ![Выполнение отчета с помощью gedit ](image/выполнение 1, make.png){ #fig:012 width=70% }
 
-Далее я начала выполнять отчет по лабораторной №3.
+Далее я начала выполнять отчет по лабораторной №3. (рис. [-@fig:013])
+
+![Выполнение отчета по лабораторной №3 ](image/Снимок экрана от 2022-10-28 14-42-28.png){ #fig:013 width=70% }
+
+
+Далее загружаю файлы на GitHub (рис. [-@fig:014]):
+
+
+![Выгрузка файлов на сайт GitHub ](image/git add git push.png){ #fig:014 width=70% }
+
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
+Я познакомилась с основными процедурами оформления отчетов с помощью легковесного языка Markdown, а так же офомила с его помощью отчет по лабораторным раюотам №3 и №4.
 
-# Список литературы{.unnumbered}
 
-::: {#refs}
-:::
